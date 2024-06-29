@@ -1,0 +1,608 @@
+body{
+   background-color: #223247;
+   color: rgb(255, 255, 255);
+   margin: 0%;
+
+}
+
+section{
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+
+.row{
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.menu li {
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff1e;
+}
+
+.menu li:hover{
+    transform: scale(1.09);
+    transition: 0.5s;
+    background-image: linear-gradient(40deg, #26131c,#152037);
+
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    transition: 0.8s;
+
+}
+
+.menu li a:hover{
+    color: #ffffff;
+}
+
+.logo img{
+    position: absolute;
+    width: 4%;
+    top: 3%;
+    right: 20%
+}
+
+.logo img:hover{
+    transform: scale(1.05);
+}
+
+.menu-btn{
+    display: none;
+}
+
+
+.col-md-12 {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.col-md-11 {
+    width: 91.63%;
+    float: left;
+    display: block;
+}
+
+.col-md-10 {
+    width: 83.3%;
+    float: left;
+    display: block;
+}
+
+.col-md-9 {
+    width: 75%;
+    float: left;
+    display: block;
+}
+
+.col-md-8 {
+    width: 66.64%;
+    float: left;
+    display: block;
+}
+
+.col-md-7 {
+    width: 58.31%;
+    float: left;
+    display: block;
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.col-md-5 {
+    width: 41.65%;
+    float: left;
+    display: block;
+}
+
+.col-md-4 {
+    width: 33.32%;
+    float: left;
+    display: block;
+}
+
+.col-md-3 {
+    width: 25%;
+    float: left;
+    display: block;
+    
+}
+.col-md-2 {
+    width: 16.66%;
+    float: left;
+    display: block;
+}
+
+.col-md-1 {
+    width: 8.33%;
+    float: left;
+    display: block;
+}
+
+.abt img{
+    width: 100%;
+    padding-top: 60px;
+
+
+}
+
+.about {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+
+.about h1{
+    border: 2px solid #4e75a4;
+    border-radius: 10px;
+    text-align: center;
+ 
+}
+
+
+.about:hover{
+    color: #6bc9ff;
+}
+
+.ser p{
+    padding: 10px;
+}
+
+.ser{
+    padding: 50px;
+    border: 1px solid #4e75a4;
+    border-radius: 20px;
+
+ 
+}
+
+.ser:hover{
+    color: #6a9edd;
+    background-image: linear-gradient(40deg, #261326,#152037);
+    transition: 0.9s;
+  
+}
+
+.ser img{
+    width: 100%;
+    border: 5px solid #4e75a4;
+    border-radius: 20px;
+
+}
+
+.ser img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+
+}
+
+
+
+.spec {
+    padding: 10px;
+    transition: 1s;
+}
+
+.spec img{
+    width: 100%;
+ 
+}
+
+.spec img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+    transition: 1s;
+
+}
+
+
+.fea{
+    padding: 20px;
+    align-items: center;
+
+
+}
+
+.fea img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid  #ffffff;
+    margin-left: calc(50%-102.5px);
+    
+}
+
+.fea img:hover{
+    transform: scale(1.09);
+}
+
+.fea h1{
+padding-left: 35px;
+}
+
+
+
+.Services h1{
+    border:0.1px solid #4e75a4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.Services h1:hover{
+    color: #6bc9ff;
+    background-image: linear-gradient(40deg, #261326,#152037);
+    transition: 1s;
+}
+
+.test h1{
+    border:1px solid #4e75a4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.test h1:hover{
+    background-image: linear-gradient(40deg, #261326,#152037);
+    color: #6bc9ff;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.trains{
+    background-color: #ffffff0c;
+    padding: 50px;
+    border: 10px solid #223247;
+    border-radius: 20px;
+
+
+}
+
+.trains:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    z-index: 1;
+}
+
+.Power{
+    background-color: #ffffff0c;
+    padding: 50px;
+    border: 10px solid  #223247;
+    border-radius: 20px;
+
+}
+
+.Power:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    z-index: 1;
+
+}
+.features{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Powertrains h1{
+    border:1px solid #4e75a4;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Powertrains h1:hover{
+    color: #6a9edd;
+    background-image: linear-gradient(40deg, #261326,#152037);
+    transition: 0.9s;
+    border-radius: 30px;
+
+}
+
+.contact {
+    padding-bottom: 10px;
+}
+.contact h1{
+    border:1px solid #4e75a4;
+    border-radius: 10px;
+    background-color: #ffffff0a;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.contact h1:hover{
+    color: #6a9edd;
+    background-image: linear-gradient(90deg, #261326,#152037);
+    transition: 0.9s;
+    border-radius: 30px;
+ 
+
+}
+
+.last{
+    background-color: #ffffff1d;
+    padding-bottom: 100px;
+    padding: 30px;
+    text-align: center;
+}
+.volvo h4{
+    border:1px solid #4e75a4;
+    padding: 30px;
+
+
+}
+.volvo :hover{
+    color: #bfc8d2;
+    background-image: linear-gradient(90deg, #261326,#152037);
+    transition: 0.9s;
+    
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px){
+    .col-md-6 {
+        width: 50%;
+        float: left;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu ul li {
+        float: none;
+        margin: 10px 0;
+    }
+
+
+}
+
+
+@media (max-width: 576px){
+    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+        width: 100%;
+    }
+
+    .fea img{
+        width: 200px;
+        margin-left:calc(50% - 100px);
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+
+    .ser{
+       margin: 30px;
+    }
+
+    .fea h1{
+        text-align: center;
+    }
+
+    .trains{
+        margin: 1px;
+    }
+
+    .Power{
+        margin: 1px;
+    }
+    .volvo h4{
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .contact h1{
+        margin: 20px;
+    }
+
+    .Powertrains h1{
+        margin: 20px;
+
+    }
+
+    .test h1{
+        margin: 20px;
+    }
+    
+    .Services h1{
+        margin: 20px;
+    }
+
+    .last p{
+        margin:20px
+    }
+
+    .features h1{
+        text-align: center;
+    }
+
+    .header {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    a {
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      /* header */
+      
+      .header {
+        background-color: #141f31;
+        box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+      }
+      
+      .header ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        margin: 20px;
+      }
+      
+      .header li a {
+        display: block;
+        padding: 10px 10px;
+        border-right: 1px solid #ffffff;
+        text-decoration: none;
+      }
+      
+      .header li a:hover,
+      .header .menu-btn:hover {
+        background-image: linear-gradient(90deg, #261326,#152037);
+      }
+      
+
+      
+      /* menu */
+      
+      .header .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+      }
+      
+      /* menu icon */
+      
+      .header .menu-icon {
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+      }
+
+
+      .menu li{
+        list-style: none;
+        background-color: #bbcadc4f;
+        margin: 10px;
+    }
+      
+      .header .menu-icon .nav-icon {
+        background: #ffffff;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+      
+      .header .menu-icon .nav-icon:before,
+      .header .menu-icon .nav-icon:after {
+        background: #ffffff;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .header .menu-icon .nav-icon:before {
+        top: 5px;
+      }
+      
+      .header .menu-icon .nav-icon:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+      
+      .header .menu-btn {
+        display: none;
+      }
+      
+      .header .menu-btn:checked ~ .menu {
+        max-height: 800px;
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .nav-icon {
+        background: transparent;
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+        transform: rotate(-45deg);
+        top:0;
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+        transform: rotate(45deg);
+        top:0;
+      }
+    
+    .logo img{
+        position: absolute;
+        width: 4%;
+        top: 2%;
+        left: 20%
+    }
+    
+    .logo img:hover{
+        transform: scale(1.2);
+    }
+    
+
+  
+
+}
+
